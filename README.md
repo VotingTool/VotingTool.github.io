@@ -3,7 +3,7 @@
 The Online Voting Tool presented by the Computational Social Choice research group at Technical University of Munich (TUM) offers an easy-to-use tool to compute [maximal lotteries](http://fishburn.ml/).
 You can test it under [voting.ml](https://voting.ml) and learn more about social choice [here](http://dss.in.tum.de/14-research/research-projects/56-algorithmic-game-theory-and-computational-social-choice.html).
 
-For questions or feedback, please contact us at feedback@voting.ml.
+For questions or feedback, please contact us at <feedback@voting.ml>.
 
 <!---
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
