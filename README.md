@@ -9,7 +9,7 @@ You can test it under [voting.ml](https://voting.ml) and learn more about social
 
 ### Maximal Lotteries
 Maximal lottery schemes return an optimal mixed strategy of the symmetric zero-sum game induced by the (\\(\tau\\)-scaled) majority margins. Formally, the set of maximal lotteries in the preference profile \\(R\\) with respect to \\(\tau\\) among the set of all lotteries \\(\Delta(A)\\) over the alternatives \\(A\\) is as follows:
-\\[ \mathit{ML}^{{\tau}}(R) = \\{p\in\Delta(A)\colon\ p^t{\tau(M^R)}\ge 0\\}, \\]
+\\[ \mathit{ML}^{\tau} (R) = \\{p\in\Delta(A)\colon\ p^t{\tau(M^R)}\ge 0\\}, \\]
 where \\( {\tau}\colon\mathbb Z\rightarrow \mathbb R \\), \\({\tau(1)} = 1 \\) is *odd* and *monotone*. The default option for \\(\tau\\) is the identity function.
 
 <!---
