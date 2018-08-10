@@ -10,7 +10,7 @@ You can test it under [voting.ml](https://voting.ml) and learn more about social
 ### Majority Margins
 The majority margin \\(M\_{x,y}\\) between a pair of alternatives \\(x\\) and \\(y\\) is the the number of voters in \\(N\\) who strictly prefer \\(x\\) to \\(y\\) minus the number of voters who strictly prefer \\(y\\) to \\(x\\):
 
-\\[ M\_{x,y} = |\\{i \in N: x \succsim\_i y\\}| - |\\{i \in N: y \succsim\_i x\\}|.  \\]
+\\[ M\_{x,y} = \vert\\{i \in N: x \succsim\_i y\\}\vert - \vert\\{i \in N: y \succsim\_i x\\}\vert.  \\]
 
 The majority margins between all pairs of alternatives for a given preference profile \\(R\\) are represented by a skew-symmetric matrix \\(M^R\\) whose rows and columns are indexed by alternatives. Voting rules which only depend on \\(M^R\\) are called *pairwise* or, following a proposal by Fishburn, *C2 rules*.
 
