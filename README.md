@@ -7,10 +7,23 @@ You can test it under [voting.ml](https://voting.ml) and learn more about social
 * System status and uptime statistics can be checked at: [status.voting.ml](https://status.voting.ml/)
 * For questions or feedback, please contact us at <feedback@voting.ml>.
 
+### Majority Margins
+The majority margin \\(M\_{x,y}\\) between a pair of alternatives \\(x\\) and \\(y\\) is the the number of voters in \\(N\\) who strictly prefer \\(x\\) to \\(y\\) minus the number of voters who strictly prefer \\(y\\) to \\(x\\):
+
+\\[ M\_{x,y} = |\\{i \in N: x \succsim\_i y\\}| - |\\{i \in N: y \succsim\_i x\\}|.  \\]
+
+The majority margins between all pairs of alternatives for a given preference profile \\(R\\) are represented by a skew-symmetric matrix \\(M^R\\) whose rows and columns are indexed by alternatives. Voting rules which only depend on \\(M^R\\) are called *pairwise* or, following a proposal by Fishburn, *C2 rules*.
+
 ### Maximal Lotteries
 Maximal lottery schemes return an optimal mixed strategy of the symmetric zero-sum game induced by the (\\(\tau\\)-scaled) majority margins. Formally, the set of maximal lotteries in the preference profile \\(R\\) with respect to \\(\tau\\) among the set of all lotteries \\(\Delta(A)\\) over the alternatives \\(A\\) is as follows:
 \\[ \mathit{ML}^{\tau} (R) = \\{p\in\Delta(A)\colon\ p^t{\tau(M^R)}\ge 0\\}, \\]
-where \\( {\tau}\colon\mathbb Z\rightarrow \mathbb R \\), \\({\tau(1)} = 1 \\) is *odd* and *monotone*. The default option for \\(\tau\\) is the identity function.
+where \\( {\tau}\colon\mathbb Z\rightarrow \mathbb R \\), \\({\tau(1)} = 1 \\) is *odd* and *monotone*. The default option for \\(\tau\\) is the identity function. However, you can choose another \\(\tau\\) in the form of \\(\tau(x)=x^k\\) by modifying the *majority margin exponent* \\(k\\) in the settings.
+
+Further references:
+
+* [Fishburn.ml](http://fishburn.ml/)
+* [English Wikipedia](https://en.wikipedia.org/wiki/Maximal_lotteries)
+* [French Wikipedia](https://fr.wikipedia.org/wiki/Scrutin_de_Condorcet_randomisé)
 
 <!---
 ### Other voting rules
