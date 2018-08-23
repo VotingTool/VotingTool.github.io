@@ -14,7 +14,7 @@ The majority margin \\(M\_{x,y}\\) between a pair of alternatives \\(x\\) and \\
 
 The majority margins between all pairs of alternatives for a given preference profile \\(R\\) are represented by a skew-symmetric matrix \\(M^R\\) whose rows and columns are indexed by alternatives. Voting rules which only depend on \\(M^R\\) are called *pairwise* or, following a proposal by Fishburn, *C2 rules*.
 
-You can directly manipulate the majorty margin matrix \\(M^R\\) by clicking on `Edit` or any entry in the matrix. After you `Save` the matrix agin, a corresponding preference profile is computed. For easy instances, Integer Linear Programming is used and returns a preference profile with a minimal number of voters. A green notification indicates the minimality. Otherwise, a heuristics computes a good approximation with few voters.
+You can directly manipulate the majorty margin matrix \\(M^R\\) by clicking on `Edit` or any entry in the matrix. After you `Save` the matrix again, a corresponding preference profile is computed. For easy instances, Integer Linear Programming is used and returns a preference profile with a minimal number of voters. A green notification indicates the minimality. Otherwise, a heuristics computes a good approximation with few voters.
 
 ### Maximal Lotteries
 Maximal lottery schemes return an optimal mixed strategy of the symmetric zero-sum game induced by the (\\(\tau\\)-scaled) majority margins. Formally, the set of maximal lotteries in the preference profile \\(R\\) with respect to \\(\tau\\) among the set of all lotteries \\(\Delta(A)\\) over the alternatives \\(A\\) is as follows:
