@@ -18,6 +18,7 @@ You can test it under [voting.ml](https://voting.ml) and learn more about social
   <li><p><b>Minimal profiles</b>: Generation of preference profiles with minimal number of voters for a given majority matrix</p></li>
   <li><p><b>Profile import and export</b> via URL query string</p></li>
   <li><p><b>Examination</b> for (weak) Condorcet winner(s), Pareto-dominated alternatives, and components in the weighted majority graph</p></li>
+  </ul>
   </td>
 </tr></tbody></table>
 
