@@ -22,8 +22,6 @@ You can test it under [voting.ml](https://voting.ml) and learn more about social
   </td>
 </tr></tbody></table>
 
----
-
 ### Maintenance
 * System status and uptime statistics can be checked at: [status.voting.ml](https://status.voting.ml/)
 * Press ? on your keyboard for an overview of keyboard shortcuts.
