@@ -1,11 +1,34 @@
 ## Welcome to the Online Voting Tool
 
-The Online Voting Tool presented by the Computational Social Choice research group at Technical University of Munich (TUM) offers an easy-to-use tool to compute [maximal lotteries](http://fishburn.ml/).
+The Online Voting Tool presented by the Computational Social Choice research group at Technical University of Munich (TUM) offers an easy-to-use tool to compute [maximal lotteries](http://fishburn.ml/) and other voting rules.
 You can test it under [voting.ml](https://voting.ml) and learn more about social choice [here](http://dss.in.tum.de/14-research/research-projects/56-algorithmic-game-theory-and-computational-social-choice.html).
+
+---
+## Main Features
+<table>
+<tbody>
+<tr>
+  <td>
+  <ul>
+  <li><p><b>Pairwise Social Choice Functions</b>: Borda, Nanson, Baldwin, Black, MaxiMin, Tideman, Copeland, Uncovered Set, Essetinal Set, and Bipartisan Set</p></li>
+  <li><p><b>Rank-Based Social Choice Functions</b>: Plurality, Plurality with Runoff, Instant Runoff, Anti-Plurality, Bucklin, and Coombs</p></li>
+  <li><p><b>Social Decision Schemes</b>: Maximal Lottery, Random Dictatorship, and Proportional Borda</p></li>
+  <li><p><b>Social Welfare Functions</b>: Kemeny, Schulze, and Ranked Pairs</p></li>
+  <li><p><b>Random voting instances</b>: Generation of random preference profiles with or without Condorcet winners, and of random majority matrices with bounded weights</p></li>
+  <li><p><b>Minimal profiles</b>: Generation of preference profiles with minimal number of voters for a given majority matrix</p></li>
+  <li><p><b>Profile import and export</b> via URL query string</p></li>
+  <li><p><b>Examination</b> for (weak) Condorcet winner(s), Pareto-dominated alternatives, and components in the weighted majority graph</p></li>
+  </td>
+</tr></tbody></table>
+
+---
 
 ### Maintenance
 * System status and uptime statistics can be checked at: [status.voting.ml](https://status.voting.ml/)
+* Press ? on your keyboard for an overview of keyboard shortcuts.
 * For questions or feedback, please contact us at <feedback@voting.ml>.
+
+## Theoretical Details
 
 ### Majority Margins
 The majority margin \\(M\_{x,y}\\) between a pair of alternatives \\(x\\) and \\(y\\) is the the number of voters in \\(N\\) who strictly prefer \\(x\\) to \\(y\\) minus the number of voters who strictly prefer \\(y\\) to \\(x\\):
